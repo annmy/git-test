@@ -1,0 +1,116 @@
+.search-content{
+    .search-text{
+        margin-top: 20px;
+        
+        border-radius: 15px;overflow: hidden;margin-bottom: 20px;
+        background: url(http://r0.ihuipao.cn/race/wuxima/img/search-bk.png)center 485px no-repeat;
+        //70%;
+        background-color: #fff;
+        .search-title{
+            height: 70px;
+            background-color: #881773;
+            line-height: 40px;padding-left: 20px;
+            img{
+                display: inline-block;
+            }
+            p{
+                color: #fff;font-size: 24px;display: inline-block;padding-top: 10px;
+                padding-left: 10px;
+            }
+        }
+        .search-form{
+            margin-top: 50px;
+            .search-group{
+//                height: 30px;
+                font-size: 18px;
+//                padding-top: 10px;
+                margin: 20px;
+                .search-lable{
+                    width: 40%;
+                    text-align: right;
+                    margin-right: 30px;
+                    letter-spacing: 5px;
+                }
+                p{
+                    font-size: 14px;color: #EA5FAC;
+                    font-weight: 600;text-align: center;
+                }
+                
+                .search-input{
+                    width: 55%;
+                    font-size: 12px;
+                    height: 30px;
+                    input{
+                        height: 30px;
+                        padding-left: 5px;
+                    } 
+                    .se-radio{
+                        width: 27%;display: inline-block;position: relative;
+                        span{display: inline-block;font-size: 14px;position: absolute;left:20px;top:8px;}
+                    }
+                    .se-sex{
+                        width: 15%;
+                    }
+                }
+                .search-p{
+                    max-width: 390px;margin: auto;
+                    p{
+                        text-align: left;
+                    }
+                }
+                    .search-btn{
+                        max-width: 390px;
+                       margin: auto; input{width:100%;background-color: #881773;color: #fff;height: 50px;border: none;border-radius: 10px;font-size: 20px;}
+                    }
+                .search-data{
+                    input{
+                        width: 185px;
+                        background: url(http://r0.ihuipao.cn/race/wuxima/img/search-calendar.png)right center no-repeat;
+                    }
+                }
+                .search-num{
+                    input{
+                       width: 270px; 
+                    }
+                   
+                }
+            }
+        }
+        .search-body{max-width: 883px;margin: auto;padding-top: 100px;
+            h3{color: #DD007B;font-size: 20px;font-weight: 800;margin-bottom: 20px;}
+            .search-d2{
+                span{display: inline-block;
+                    border-bottom: 1px solid #DD007B;
+                }
+                .search-icon{
+                    width: 11px;height: 7px;
+                      background: url(http://r0.ihuipao.cn/race/wuxima/img/search-icon.png)center no-repeat;
+                    border:none;
+                    margin-left: 5px;
+                 
+                }
+            }
+            p{color: #000;line-height: 25px;margin: 0}
+            .search-div{
+                display: none;
+                margin-bottom: 15px;
+            }
+            .search-anwser{
+                color: #333333;font-weight:bold;
+            }
+            .search-d2:hover{
+                .search-icon{
+                    transform: rotate(-90deg);
+                     -moz-transform:rotate(-90deg);
+      -webkit-transform:rotate(-90deg);
+       filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3); 
+                }
+                    .search-div{
+                        display: block;
+                    }
+                
+            }
+        }
+    }
+    
+}

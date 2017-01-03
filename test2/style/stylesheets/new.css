@@ -1,0 +1,296 @@
+/* line 1, ../sass/new.scss */
+.news-body {
+  /*==============new-left========================*/
+  /*=============new-right==================*/
+}
+/* line 2, ../sass/new.scss */
+.news-body .news-bk {
+  background: url(http://r0.ihuipao.cn/race/wuxima/img/news-bk.png) center no-repeat;
+}
+/* line 6, ../sass/new.scss */
+.news-body .news-left {
+  max-width: 790px;
+  border-radius: 15px;
+  min-height: 990px;
+  width: 67%;
+  margin: 20px 0;
+  background-color: #fff;
+  padding: 20px;
+  /*==================news-ul====================*/
+}
+/* line 16, ../sass/new.scss */
+.news-body .news-left .news-notice {
+  color: #7A7A7A;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+/* line 19, ../sass/new.scss */
+.news-body .news-left .news-notice li:before {
+  color: #7A7A7A;
+  content: ">";
+}
+/* line 23, ../sass/new.scss */
+.news-body .news-left .news-notice li:first-child:before {
+  content: none;
+}
+/* line 27, ../sass/new.scss */
+.news-body .news-left h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+/* line 28, ../sass/new.scss */
+.news-body .news-left .news-share {
+  height: 50px;
+  padding-top: 15px;
+  border-bottom: 3px solid #8C247B;
+  margin-bottom: 40px;
+}
+/* line 32, ../sass/new.scss */
+.news-body .news-left .news-share p span {
+  padding-left: 15px;
+}
+/* line 38, ../sass/new.scss */
+.news-body .news-left .news-detail {
+  min-height: 840px;
+}
+/* line 40, ../sass/new.scss */
+.news-body .news-left .news-detail li {
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  border-top: 2px solid #E6E6E6;
+}
+/* line 44, ../sass/new.scss */
+.news-body .news-left .news-detail li a {
+  display: block;
+  height: 100%;
+}
+/* line 45, ../sass/new.scss */
+.news-body .news-left .news-detail li .news-point {
+  color: #861874;
+  font-size: 40px;
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  background-color: #861874;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+/* line 54, ../sass/new.scss */
+.news-body .news-left .news-detail li p {
+  font-size: 18px;
+  display: inline-block;
+  margin: 0;
+  width: 85%;
+  overflow: hidden;
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* line 55, ../sass/new.scss */
+.news-body .news-left .news-detail li .news-time {
+  color: #CDCDCD;
+  font-size: 14px;
+}
+/* line 57, ../sass/new.scss */
+.news-body .news-left .news-detail li:first-child {
+  border-top: 2px solid #8C247B;
+}
+/* line 61, ../sass/new.scss */
+.news-body .news-left .news-detail li:hover p {
+  color: #861874;
+}
+/* line 64, ../sass/new.scss */
+.news-body .news-left .news-nav {
+  text-align: center;
+}
+/* line 66, ../sass/new.scss */
+.news-body .news-left .news-nav .news-ul {
+  margin: -10px 0;
+}
+/* line 68, ../sass/new.scss */
+.news-body .news-left .news-nav .news-ul a {
+  background-color: #EFEFEF;
+  color: #AFAFAF;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+/* line 72, ../sass/new.scss */
+.news-body .news-left .news-nav .news-ul li:nth-last-child(2) a {
+  background-color: #fff;
+}
+/* line 75, ../sass/new.scss */
+.news-body .news-left .news-nav .news-ul li:nth-last-child(2) a:hover {
+  background-color: #881773;
+}
+/* line 79, ../sass/new.scss */
+.news-body .news-left .news-nav .news-ul a:hover {
+  background-color: #881773;
+  color: #fff;
+  border-radius: 5px;
+}
+/* line 88, ../sass/new.scss */
+.news-body .news-left .news-ul li:first-child h4 {
+  height: 30px;
+  background-color: #861874;
+  color: #fff;
+  width: 125px;
+  border-radius: 5px;
+  line-height: 30px;
+  padding-left: 8px;
+}
+/* line 89, ../sass/new.scss */
+.news-body .news-left .news-ul li:first-child .news-div {
+  margin-bottom: 20px;
+}
+/* line 90, ../sass/new.scss */
+.news-body .news-left .news-ul li:first-child p {
+  font-size: 14px;
+  color: #858585;
+}
+/* line 91, ../sass/new.scss */
+.news-body .news-left .news-ul li:first-child .news-p {
+  color: #696969;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 95, ../sass/new.scss */
+.news-body .news-left .news-ul li:nth-child(2) img {
+  display: block;
+  margin: auto;
+  max-width: 750px;
+}
+/* line 99, ../sass/new.scss */
+.news-body .news-left .news-ul li:nth-child(2) p {
+  margin: 10px;
+}
+/* line 104, ../sass/new.scss */
+.news-body .news-right {
+  margin: 20px 0;
+  width: 31%;
+}
+/* line 107, ../sass/new.scss */
+.news-body .news-right .colok-time {
+  position: relative;
+  height: 165px;
+  width: 100%;
+  background: url(http://r0.ihuipao.cn/race/wuxima/img/clock.png) center no-repeat;
+}
+/* line 112, ../sass/new.scss */
+.news-body .news-right .colok-time ul {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  height: 42px;
+  width: 250px;
+  margin-left: 20px;
+}
+/* line 115, ../sass/new.scss */
+.news-body .news-right .colok-time li {
+  display: inline-block;
+  margin-right: 14px;
+  color: #A1E0E0;
+  font-size: 50px;
+  line-height: 50px;
+}
+/* line 120, ../sass/new.scss */
+.news-body .news-right .news-list li {
+  width: 100%;
+  height: 140px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+/* line 126, ../sass/new.scss */
+.news-body .news-right .news-list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 45px;
+  padding-right: 30px;
+  text-align: right;
+}
+/* line 139, ../sass/new.scss */
+.news-body .news-right .news-list li:first-child {
+  background: url(http://r0.ihuipao.cn/race/wuxima/img/se-search.png) center no-repeat;
+}
+/* line 142, ../sass/new.scss */
+.news-body .news-right .news-list li:nth-child(2) {
+  background: url(http://r0.ihuipao.cn/race/wuxima/img/se-race1.png) center no-repeat;
+}
+/* line 145, ../sass/new.scss */
+.news-body .news-right .news-list .news-li:hover {
+  text-align: center;
+}
+/* line 147, ../sass/new.scss */
+.news-body .news-right .news-list .news-li:hover a {
+  background-color: #881773;
+  border-radius: 10px;
+  z-index: 1000;
+  transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  padding: 50px;
+  text-align: center;
+}
+/* line 158, ../sass/new.scss */
+.news-body .news-right .news-list .news-hotel {
+  height: 160px;
+}
+/* line 160, ../sass/new.scss */
+.news-body .news-right .news-list .news-hotel a {
+  position: relative;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  z-index: 999;
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+/* line 164, ../sass/new.scss */
+.news-body .news-right .news-list .news-hotel a p {
+  padding-top: 5%;
+  padding-left: 5%;
+  font-weight: 600;
+}
+/* line 169, ../sass/new.scss */
+.news-body .news-right .news-list .news-hotel a span {
+  display: none;
+}
+/* line 171, ../sass/new.scss */
+.news-body .news-right .news-list .news-hotel .squared-hidden {
+  position: absolute;
+  width: 100%;
+  display: none;
+  border-radius: 10px;
+  top: 0;
+  height: 160px;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 176, ../sass/new.scss */
+.news-body .news-right .news-list li:nth-child(3) {
+  background: url(http://r0.ihuipao.cn/race/wuxima/img/hotel.png) center no-repeat;
+}
+/* line 180, ../sass/new.scss */
+.news-body .news-right .news-list li:last-child {
+  background: url(http://r0.ihuipao.cn/race/wuxima/img/mall.png) center no-repeat;
+}
+/* line 185, ../sass/new.scss */
+.news-body .news-right .news-list .news-hotel:hover .squared-hidden {
+  display: block;
+  z-index: 1002;
+}
+/* line 186, ../sass/new.scss */
+.news-body .news-right .news-list .news-hotel:hover span {
+  display: inline-block;
+  margin-left: 10px;
+}

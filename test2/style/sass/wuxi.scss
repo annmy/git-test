@@ -1,0 +1,687 @@
+
+
+    /*=============banner============*/
+    .carousel{
+        position: relative;
+        width: 1240px;
+//        height: 500px;
+        margin: auto;
+        .carousel-box{
+            width: 97%;
+            overflow: hidden;
+            margin:20px auto;
+            .item{
+//                width: 1200px;
+                width: 100%;
+            }
+            img{
+                width: 100%;
+//                max-height: 500px;
+            }
+        }
+        .carousel-l-btn{left: -10px;}
+        .carousel-r-btn{right: 0;}
+        .carousel-btn{
+            position: absolute;
+            height: 100%;
+            top: 5%;
+            line-height: 380px;
+            width: 0;
+//            left: -10px;
+            -webkit-transition: all ease 0.3s;
+            -moz-transition: all ease 0.3s;
+            -o-transition: all ease 0.3s;
+            transition: all ease 0.3s;
+            background-image: none;
+        }
+        
+        .carousel-dot{
+              position: absolute;
+              width: 100%;
+              bottom: 20px;
+             left: 30%;
+              -webkit-transition: all ease 0.3s;
+              -moz-transition: all ease 0.3s;
+              -o-transition: all ease 0.3s;
+              transition: all ease 0.3s;
+            .carousel-dot-container{
+                  width: 106px;
+                  height: 25px;
+                  margin: 0 auto;
+                  border-radius: 10px;
+                  background: rgba(0, 0, 0, 0.4);
+                  line-height: 25px;
+                  text-align: center;
+            }
+            span{
+                  display: inline-block;
+                  width: 8px;
+                  height: 8px;
+                  margin: 0 2px;
+                  border-radius: 50%;
+                  background: #d6d6d6;
+                  cursor: pointer;
+            }
+            .active{
+                  width: 28px;
+                  border-radius: 10px;
+                  background: #fff;
+            }
+        }
+    }
+@media screen and (max-width: 414px){
+    .carousel{
+        width: 100%;
+        .carousel-box{
+            width: 100%;margin: 0;
+        }
+    }
+} 
+/*================warp==============*/
+.warp{
+//    width: 1200px;margin: auto;
+    /*====section-content===========*/
+    .section-content{
+        margin-top: 20px;
+        .section-left{
+            width: 68%;
+            .se-content{
+                .se-change{
+                    margin-bottom: 20px;
+                        li {
+                    width: 47%;
+                    height: 140px;
+                    display: inline-block;
+                    margin-right: 20px;border-radius: 10px;
+                    a{display: block;width: 100%;height: 100%;border-radius: 10px;overflow: hidden;font-size: 24px;color: #fff;font-weight: 600;padding-top:45px;padding-right: 30px;text-align: right;}
+
+                }
+                li:first-child{
+                  
+                       background: url(http://r0.ihuipao.cn/race/wuxima/img/se-search.png) center no-repeat;  
+                      
+                }
+                li:last-child{
+               
+                        background: url(http://r0.ihuipao.cn/race/wuxima/img/se-race1.png)center no-repeat;
+                    
+                } 
+                    li:hover{
+                       text-align: center;
+                        a{
+                            background-color: #881773;
+                          z-index: 1000;
+                        transition-duration: 0.5s;
+                        -moz-transition-duration: 0.5s; 
+                        -webkit-transition-duration: 0.5s; 
+                        -o-transition-duration: 0.5s; 
+                            padding: 50px;text-align: center;
+                        }
+                     
+                    }
+                }
+                .announce-content{
+                    background-color: #fff;
+                    min-height: 415px;
+                    margin-right: 20px;
+                    border-radius: 10px;
+                    .announce-top{
+                        height: 50px;line-height: 50px;
+                        margin: 0px 20px 20px 20px;
+                        border-bottom: 2px solid #A85598;
+                        h3{margin-top: 10px;font-weight: 800;}
+                        a{
+                            color: #A85598;
+                        }
+                    }
+                    .announce-main{
+                        li{
+                            height: 60px;
+                            overflow: hidden;
+                            margin-bottom: 20px;
+                        }
+                        margin: 0 20px;
+                        .data-left{
+                            border:1px solid #881773;
+                            border-radius: 10px;
+                            height: 60px;
+                            width: 60px;
+                            overflow: hidden;
+                            text-align: center;
+                            margin-right: 20px;
+                            span{
+                                display: block;
+                                height: 42px;
+                                width: 60px;
+                                background-color: #881773;
+                                line-height: 42px;
+                                text-align: center;
+                                color: #fff;
+                                font-size: 28px;
+                                font-weight: 800;
+                            }
+                            a{ 
+                                height: 16px;
+                                line-height: 16px;
+                                font-size: 12px;
+                                color:#90267C; 
+                                display: block;
+                                width: 60px;
+                            }
+                            
+                        }
+                        .data-right{
+                            width: 640px;
+                            h4{margin-top: 0;margin-bottom: 5px;}
+                            p{
+                                font-size: 12px;margin: 0;
+                                color: #B6B6B6;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section-right{
+            width: 31%;
+            .time-show{
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                img{width: 100%;display: block;}
+            }
+            .colok-time{
+                position: relative;
+                height: 165px;
+                width: 100%;
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/clock.png)center no-repeat;
+                
+                ul{
+                    position: absolute;top:60px;left: 60px;height: 42px;width: 250px;margin-left: 20px;
+                }
+                li{
+                    display: inline-block;margin-right: 14px;color: #A1E0E0;font-size: 50px;line-height: 50px;  
+                    span{
+                        display: block;
+                        font-size: 50px;color: #A1E0E0;
+                    }
+                }
+//                .col-li{margin-right: 0;}
+            }
+            .calendar{
+                img{
+                    width: 100%;
+                }
+                .calendar-month{padding-top: 20px;background-color: #fff;border-radius: 0 0 15px 15px;}
+                ul{margin-bottom: 0;}
+                li{
+                display:inline-block;height: 36px;width: 48px;margin: 0 20px 15px 20px;line-height: 36px;
+                    text-align: center;position: relative;
+                }
+                a{
+                    color: #881773;display: block;position: relative;
+//                    padding-top: 8px;
+                    span{
+                        color: #DD007B;position: absolute;top:-25px;right: 0;font-size: 40px;
+                    }
+                }
+                .race-hidden{
+                    display: none;
+                }
+                li:hover{
+                    border-radius: 10px;background-color: #881773;
+                    a{
+                        color: #fff;
+                        span{
+                            display: none;
+                        }
+                    }
+                    .race-hidden{
+                        position: absolute;
+                        display: block;
+                        color: #fff;background-color: #881773;
+                        width: 210px;min-height: 35px;
+                        border-radius: 10px;line-height: 35px;z-index: 1000;
+                        p{font-size: 12px;margin: 0;}
+                        
+                    }
+                    .race-left{
+                        left:50px;top:0;
+                    }
+                    .race-right{
+                        right:50px;top:0;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and(max-width:414px){
+        .section-content{
+            width: 100%;
+            .section-left{float: none;width: 100%;
+                .se-content{
+                    .se-change{
+                        li{width: 50%;}
+                    }
+                    .announce-content{width: 100%;}
+                }
+            }
+            .section-right{
+                float:none;width: 100%;
+                .time-show{
+                    width: 100%;
+                    img{width: 40%;}
+                    .colok-time{
+                    width: 50%;float: left;
+                }
+                }
+               
+            }
+        }
+    }
+    /*=======race-new==================*/
+    .race-new{
+        height: 350px;
+        background-color: #fff;
+        border-radius: 15px;
+        margin-top: 20px;
+        .race-container{padding: 20px;position: relative;}
+        .new-left{
+            //add*************
+           
+            .new-a{
+                position: absolute;top:20px;left:20px;height: 145px;width: 265px;
+            }
+            li:first-child{
+                position: absolute;bottom: 38px;left: 0;height: 145px;width: 265px;
+            }
+            li:nth-child(2){
+                position: absolute;top:0;right:40px;height: 145px;width: 265px;
+            }
+            li:last-child{
+                position: absolute;bottom:40px;right:40px;height: 145px;width: 265px;
+            }
+            //add**************
+            margin-right: 20px;
+//            a{display: block;min-height: 145px;}
+            img{display: block;width: 100%;height: 100%;height: 145px;width: 265px;margin-bottom: 20px;}
+        }
+        .new-photo{
+            position: relative;max-width: 265px;height: 145px;
+            .new-a{
+                display: block;border-radius: 10px;overflow: hidden;
+            }
+            .new-hidden{
+                 position: absolute;
+                background: rgba(0, 0, 0, 0.7);
+                bottom: -20px;border-radius: 0 0 10px 10px;width: 100%;height: 33px;line-height: 33px;left:20px;
+                a{
+                    display: block;padding-left: 5px;
+                    color: #fff; overflow: hidden;white-space: nowrap;
+                    text-overflow: ellipsis;   width: 100%;height: 100%;
+                }
+            }
+        }
+//        .new-photo:hover{
+//            .new-hidden{
+//                bottom:20px;
+//            }
+//            }
+        .new-middle{
+           width: 578px;position: relative;
+            margin-right: 20px;height: 310px;margin-left: 265px;
+//            a{min-width: 578px;
+//            min-height: 310px;display: block;}
+            img{width: 100%;height: 100%;border-radius: 10px;}
+            .new-fixed{
+                position: absolute;
+                bottom:0px;
+                width: 100%;max-height: 145px;
+                border-radius: 0 0 10px 10px;
+                a{
+                  background: rgba(0, 0, 0, 0.7);
+                    color: #fff;
+                    display: block;
+                    height: 38px;line-height: 38px;font-size: 18px;padding-left: 20px;font-weight: 600;
+                    border-radius:0px 0px 10px 10px;
+                      overflow: hidden;
+                      text-overflow: ellipsis;
+                      white-space: nowrap;
+                }
+                p{
+                    color: #fff;display: block;padding-left: 20px;font-size: 12px;padding-top: 10px;
+                    display:none; overflow: hidden;
+                    text-overflow: ellipsis;padding-right: 10px;
+                }
+            }
+        }
+        .new-middle:hover{
+            
+            .new-fixed{
+                top:53%;
+                background: rgba(0,0,0,0.4);
+                border-radius: 0 0 10px 10px;
+                a{border-radius: 0;}
+                p{display: block;}
+            }
+        }
+//        .new-right{
+//            margin-right: 0px;
+//            .new-photo{
+//                .new-hidden{
+//                    bottom: 0;
+//                }
+//            }
+//            .first-newright{
+//                margin-bottom: 20px;
+//            }
+//            .new-photo:hover{
+//                .new-hidden{
+//                    bottom:0;
+//                }
+//            }
+//        }
+    }
+    /*==========sign-up===================*/
+    .sign-up{
+        min-height: 310px;
+        margin:20px 0;
+        .sign-left{
+            border-radius: 15px;
+            max-width: 800px;
+            margin-right: 20px;
+            .sign-bk{
+                background:url(http://r0.ihuipao.cn/race/wuxima/img/sign-bk.png)center no-repeat;
+              height: 240px;
+                .sign-container{
+                    width: 70%;
+//                    position: relative;
+                    margin: auto;
+                    min-height: 120px;
+                    padding-top: 10%;
+                }
+            }
+            .sign-input{
+//                position: absolute;
+                width: 100%;
+                margin-bottom: 20px;
+                .input-button{
+                    height: 40px;width: 100px;border-radius: 5px 0 0 5px;
+                }
+                .input-button{
+                    background-color: #fff;
+                    color: #000;
+                }
+                .input-menu{
+                  width: 100%;
+                    min-width: 0;
+                    margin: 0;padding: 0;
+                    a{color: #A1A1A1;padding: 5px 20px;}
+                    li:hover{
+                        a{background-color: #eee;}
+                    }
+                }
+                .form-control{
+                   border-radius:0 5px 5px 0px; height: 40px;
+                } 
+            }
+            .sign-button{
+                
+                width: 100%;
+                color: #fff;
+                background-color: #881773;
+                border:none;
+                font-size: 20px;line-height: 40px;
+                border-radius: 5px;
+                margin: auto;
+            }
+        }
+        .sign-right{
+            border-radius: 15px;
+            background-color: #fff;
+            padding: 15px 15px 0px 15px;
+            max-width: 370px;
+            min-height: 310px;
+            li{
+                display: inline-block;width: 125px;height: 95px;margin: 20px;position: relative;
+                text-align: center;
+                a{
+                    color: #881773;position: absolute;top:70%;display: block;font-size: 16px;left: 25%;
+                    
+                }
+            }
+        
+            .sign-li1{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/map.png)40px 15px no-repeat;
+                
+            }
+            .sign-li1:hover{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/map-1.png)32px 15px no-repeat;
+                background-color: #881773;
+            }
+            .sign-li2{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/goods.png)40px 15px no-repeat;
+            }
+            .sign-li2:hover{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/goods-1.png)42px 15px no-repeat;
+                background-color: #881773;
+            }
+            .sign-li3{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/answer.png)40px 15px no-repeat;
+            }
+            .sign-li3:hover{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/answer-1.png)35px 15px no-repeat;
+                background-color: #881773;
+            }
+            .sign-li4{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/download.png)40px 15px no-repeat;
+            }
+            .sign-li4:hover{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/download-1.png)40px 15px no-repeat;
+                background-color: #881773;
+            }
+                li:hover{
+                    border-radius: 5px;
+                a{
+                    color: #fff;
+                }
+            }
+            
+        }
+    }
+    /*==========squared==================*/
+    .squared{
+        padding: 20px;background: #fff;border-radius: 15px;
+        li{
+            display: inline-block;width: 32%;height: 160px;
+            
+            a{
+                position: relative;
+                color: #fff;font-size: 24px;text-align: center;z-index: 999;
+                display: block;width: 100%;height: 160px;
+                p{padding-top: 17%;font-weight: 600;}
+                span{display: none;}
+            }
+            .squared-hidden{
+                position: absolute;width: 100%;display: none;border-radius: 10px;top:0;
+                height: 160px;background: rgba(0,0,0,0.4);
+            }
+        }
+       
+        .squared-li1 {
+            background: url(http://r0.ihuipao.cn/race/wuxima/img/Volunteer.png)center no-repeat;
+            
+            margin: 0 15px 20px 0;
+        }
+        .squared-li2{
+            background: url(http://r0.ihuipao.cn/race/wuxima/img/speed-man.png)center no-repeat;
+            margin: 0 15px 20px 0;
+        }
+        .squared-li3{
+            background: url(http://r0.ihuipao.cn/race/wuxima/img/hotel.png)center no-repeat;
+            margin: 0 0 20px 0;
+        }
+        .squared-li4{
+            background: url(http://r0.ihuipao.cn/race/wuxima/img/mall.png)center no-repeat;
+            margin: 0 15px 0 0;
+        }
+        .squared-li5{
+            background: url(http://r0.ihuipao.cn/race/wuxima/img/welfare.png)center no-repeat;
+            margin: 0 15px 0 0;
+        }
+        .squared-li6{
+            background: url(http://r0.ihuipao.cn/race/wuxima/img/metting.png)center no-repeat;
+        }
+         li:hover{
+             .squared-hidden{display: block;z-index: 1002;}
+            span{
+                display: inline-block;margin-left: 10px;
+            }
+        }
+    }
+    /*============photos========================*/
+    .photos{
+        margin-top: 20px;
+        background-color: #fff;
+        border-radius: 15px;
+        overflow: hidden;
+        .photo-nav{
+            height: 70px;
+            background-color: #881773;
+            width: 100%;
+            line-height: 70px;
+            padding-left: 20px;
+//            border-radius: 15px;
+            
+            img{display: inline-block;margin-right: 15px;margin-bottom: 10px;}
+            p{color: #fff;font-size: 28px;display: inline-block;}
+        }
+        ul{
+            margin: 20px;
+        }
+        li{
+            display: inline-block;margin-right: 14px;height: 220px;width: 32%;
+            a{display: block;width: 100%;height: 100%;position: relative;
+            }
+            .img-fix{
+                position: absolute;z-index: 1003;border-radius: 10px;
+            }
+            .photos-fix{position: absolute;z-index: 1005;
+                top:30%;left: 35%;
+    width: 30%;
+    text-align: center;
+
+                p{
+                    display: block;color: #fff;font-size: 26px;margin-bottom: 8px;
+                }
+            }
+            .photos-hidden{
+                position: absolute;display: none;width: 100%;height: 220px;background: rgba(0,0,0,0.4);border-radius: 10px;top:0;
+            }  
+        }
+        li:last-child{
+            margin-right: 0;
+        }
+        a:hover{
+            .photos-hidden{display: block; z-index: 1004;}
+           
+        }
+    }
+    /*sponsor============================*/
+    .sponsor{
+        height: 130px;
+        width: 100%;
+        border-radius: 15px;margin: 20px 0;
+        background-color: #fff;overflow: hidden;
+        .sponsor-title{
+            width: 15%;
+            height: 100%;background-color: #881773;min-height: 130px;
+            color: #fff;text-align: center;
+            p{display: block;font-size: 24px;padding-top: 14%;font-weight: 600;}
+            .sponsor-p{padding-top: 25%;}
+        }
+        .sponsor-photo{
+           text-align: center;
+            width: 85%;
+            height: 100%;
+          padding-top: 15px;
+            li{display: inline-block;margin-right: 50px;}
+        }
+    }
+}
+/*===video-btn==================*/
+  .video-btn{
+      position: fixed;
+      width:840px;
+      height: 500px;
+/*      background:#fff;*/
+      margin: auto;
+      top:35%;
+      left: 42%;
+      margin-top: -150px;
+      margin-left:-300px;
+      display: none;
+      z-index: 1051;
+    }
+ .video-area{
+      float:left;
+      width:800px;
+      height: 300px;
+  
+/*      background:red;*/
+    }
+.video-shut{
+      height:40px;
+      width:40px;
+    border-radius: 50%;
+    border:1px solid #fff;
+      font-size:26px;
+      color:#ccc;
+      float:right;
+      text-align: center;
+      line-height: 40px;
+/*      background: yellow;*/
+      display: block;
+
+/*      padding-top:30px;*/
+    }
+        
+#shadow{
+     position: absolute;
+    width: 100%;
+    height: 100%;
+     opacity: 0.5;
+     filter:alpha(opacity=50);
+     top:0;
+    left: 0;
+    right: 0;
+     bottom:0;
+
+     background:black;
+     z-index: 1050;
+     display: none;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

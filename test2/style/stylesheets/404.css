@@ -1,0 +1,38 @@
+/* line 1, ../sass/404.scss */
+.found-content {
+  min-height: 600px;
+  text-align: center;
+}
+/* line 3, ../sass/404.scss */
+.found-content img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+/* line 4, ../sass/404.scss */
+.found-content ul {
+  padding-top: 20px;
+}
+/* line 5, ../sass/404.scss */
+.found-content li {
+  display: inline-block;
+  height: 33px;
+  width: 100px;
+  font-size: 16px;
+  line-height: 33px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+/* line 8, ../sass/404.scss */
+.found-content li a {
+  color: #fff;
+}
+/* line 14, ../sass/404.scss */
+.found-content li:first-child {
+  background-color: #881773;
+}
+/* line 18, ../sass/404.scss */
+.found-content li:last-child {
+  background-color: #FF008E;
+}

@@ -1,0 +1,193 @@
+.news-body{
+    .news-bk{
+         background: url(http://r0.ihuipao.cn/race/wuxima/img/news-bk.png)center no-repeat;
+    }
+    /*==============new-left========================*/
+    .news-left{
+        max-width: 790px;
+//        background-color: #fff;
+        border-radius: 15px;
+        min-height: 990px;
+        width: 67%;
+        margin: 20px 0;    
+        background-color: #fff;
+//        overflow: hidden;
+        padding: 20px;
+        .news-notice{
+            color: #7A7A7A;background-color:#fff;
+            margin: 0;padding: 0;
+            li:before{
+                color: #7A7A7A;
+                content: ">";
+            }
+            li:first-child:before{
+                content: none;
+            }
+        }
+        h3{font-size: 24px;font-weight:600;margin-top: 15px;}
+        .news-share{
+            height: 50px;padding-top: 15px;
+            border-bottom: 3px solid #8C247B;margin-bottom: 40px;
+            p{
+                span{
+                    padding-left: 15px;
+                }
+            }
+      
+        }
+        .news-detail{
+            min-height: 840px;
+            li{
+             height: 60px;line-height: 60px;
+                width: 100%;border-top: 2px solid #E6E6E6;
+//                list-style: disc;
+                a{display: block;height: 100%;}
+                .news-point{
+                    color: #861874;
+                    font-size: 40px;
+                    display: inline-block;
+                    height: 5px;
+                    width: 5px;
+                    background-color: #861874;
+                    border-radius: 50%;
+                margin-right: 10px;margin-bottom: 5px;}
+                p{font-size: 18px;display: inline-block;margin:0;width: 85%;overflow: hidden;height: 100%;white-space: nowrap;text-overflow: ellipsis;}
+                .news-time{color: #CDCDCD;font-size: 14px;}
+            }
+            li:first-child{
+                border-top: 2px solid #8C247B;
+            }
+            li:hover{
+                p{color: #861874;}
+            }
+        }
+        .news-nav{
+            text-align: center;
+            .news-ul{
+                margin: -10px 0;
+                    a{
+                        background-color: #EFEFEF;color: #AFAFAF;margin-right: 10px;border-radius: 5px;border:none;
+                    }
+                li:nth-last-child(2){
+                    a{
+                       background-color: #fff; 
+                    }
+                    a:hover{
+                        background-color: #881773;
+                    }
+                }
+                a:hover{
+                    background-color: #881773;color: #fff;
+                    border-radius: 5px;
+                }
+            }
+        }
+        /*==================news-ul====================*/
+        .news-ul{
+            li:first-child{
+                h4{height: 30px;background-color: #861874;color: #fff;width: 125px;border-radius: 5px;line-height: 30px;padding-left: 8px;}
+                .news-div{margin-bottom: 20px;}
+                p{font-size: 14px;color: #858585;}
+                .news-p{color: #696969;font-size: 16px;
+                font-weight: 600;}   
+            }
+            li:nth-child(2){
+                img{
+                    display: block;margin: auto;
+                    max-width: 750px;
+                }
+                p{margin: 10px;}
+            }
+        }
+    }
+    /*=============new-right==================*/
+    .news-right{
+        margin: 20px 0;
+        width: 31%;
+        .colok-time{
+            position: relative;
+            height: 165px;
+            width: 100%;
+            background: url(http://r0.ihuipao.cn/race/wuxima/img/clock.png)center no-repeat;            
+            ul{
+                position: absolute;top:60px;left: 60px;height: 42px;width: 250px;margin-left: 20px;
+            }
+            li{
+                display: inline-block;margin-right: 14px;color: #A1E0E0;font-size: 50px;line-height: 50px;  
+                }
+            }
+        .news-list{      
+            li {
+                width: 100%;
+                height: 140px;
+                display: inline-block;
+                border-radius: 10px;
+                margin-top: 20px;
+                a{
+                    display: block;
+                    width: 100%;height: 100%;
+//                    border-radius: 10px;
+//                    overflow: hidden;
+                    font-size: 24px;
+                    color: #fff;
+                    font-weight: 600;
+                    padding-top:45px;
+                    padding-right: 30px;
+                    text-align: right;
+                }
+            }
+            li:first-child{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/se-search.png) center no-repeat;                        
+            }
+            li:nth-child(2){   
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/se-race1.png)center no-repeat; 
+            } 
+            .news-li:hover{
+                text-align: center;
+                a{
+                   background-color: #881773;
+                   border-radius: 10px;
+                   z-index: 1000;
+                   transition-duration: 0.5s;
+                   -moz-transition-duration: 0.5s; 
+                   -webkit-transition-duration: 0.5s; 
+                   -o-transition-duration: 0.5s; 
+                   padding: 50px;text-align: center;
+                  }         
+            }
+            .news-hotel{
+                height: 160px;
+                a{
+                    position: relative;
+                    color: #fff;font-size: 24px;text-align: center;z-index: 999;
+                    display: block;width: 100%;height: 160px;
+                    p{
+                        padding-top: 5%;
+                        padding-left: 5%;
+                        font-weight: 600;
+                    }
+                    span{display: none;}
+                }
+                .squared-hidden{
+                    position: absolute;width: 100%;display: none;border-radius: 10px;top:0;
+                    height: 160px;background: rgba(0,0,0,0.4);
+                }
+            }
+            li:nth-child(3){
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/hotel.png)center no-repeat;
+            
+            }
+            li:last-child{
+                background: url(http://r0.ihuipao.cn/race/wuxima/img/mall.png)center no-repeat;
+            
+            }
+            .news-hotel:hover{
+             .squared-hidden{display: block;z-index: 1002;}
+            span{
+                display: inline-block;margin-left: 10px;
+            }
+        }
+        }
+        
+    }
+}
